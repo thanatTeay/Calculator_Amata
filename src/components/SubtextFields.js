@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import React, { useState } from 'react'
 import { Container, TextField, makeStyles, Button, IconButton, Grid } from '@material-ui/core'
 import RemoveIcon from '@material-ui/icons/Remove'
@@ -8,22 +6,23 @@ import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 
 
+
 const useStyles = makeStyles((theme) => ({
-  root: {
-      '& .MuiTextField-root': {
-          margin: theme.spacing(1),
-      }
+    root: {
+        '& .MuiTextField-root': {
+            margin: theme.spacing(1),
+        }
 
 
-  },
-  button: {
-      margin: theme.spacing(1),
-  }
+    },
+    button: {
+        margin: theme.spacing(1),
+    }
 
 }))
 
-function App() {
-  let sum = 0;
+function SubtextFields() {
+    let sum = 0;
     let max;
     let lowV = 0;
     let closeToTarget = 0;
@@ -232,6 +231,7 @@ function App() {
 
         </Container>
     )
+
 }
 
-export default App;
+export default SubtextFields;
