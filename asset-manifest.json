@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/Calculator_Amata/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/Calculator_Amata/static/js/main.8a6f0df9.chunk.js",
-    "main.js.map": "/Calculator_Amata/static/js/main.8a6f0df9.chunk.js.map",
-    "runtime-main.js": "/Calculator_Amata/static/js/runtime-main.00b44ff1.js",
-    "runtime-main.js.map": "/Calculator_Amata/static/js/runtime-main.00b44ff1.js.map",
-    "static/js/2.240671ef.chunk.js": "/Calculator_Amata/static/js/2.240671ef.chunk.js",
-    "static/js/2.240671ef.chunk.js.map": "/Calculator_Amata/static/js/2.240671ef.chunk.js.map",
-    "static/js/3.a5805b43.chunk.js": "/Calculator_Amata/static/js/3.a5805b43.chunk.js",
-    "static/js/3.a5805b43.chunk.js.map": "/Calculator_Amata/static/js/3.a5805b43.chunk.js.map",
+    "main.js": "/Calculator_Amata/static/js/main.c85542d9.chunk.js",
+    "main.js.map": "/Calculator_Amata/static/js/main.c85542d9.chunk.js.map",
+    "runtime-main.js": "/Calculator_Amata/static/js/runtime-main.d8f240da.js",
+    "runtime-main.js.map": "/Calculator_Amata/static/js/runtime-main.d8f240da.js.map",
+    "static/css/2.3c434353.chunk.css": "/Calculator_Amata/static/css/2.3c434353.chunk.css",
+    "static/js/2.eb51c587.chunk.js": "/Calculator_Amata/static/js/2.eb51c587.chunk.js",
+    "static/js/2.eb51c587.chunk.js.map": "/Calculator_Amata/static/js/2.eb51c587.chunk.js.map",
+    "static/js/3.5de82d95.chunk.js": "/Calculator_Amata/static/js/3.5de82d95.chunk.js",
+    "static/js/3.5de82d95.chunk.js.map": "/Calculator_Amata/static/js/3.5de82d95.chunk.js.map",
     "index.html": "/Calculator_Amata/index.html",
+    "static/css/2.3c434353.chunk.css.map": "/Calculator_Amata/static/css/2.3c434353.chunk.css.map",
     "static/css/main.9d5b29c0.chunk.css.map": "/Calculator_Amata/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.240671ef.chunk.js.LICENSE.txt": "/Calculator_Amata/static/js/2.240671ef.chunk.js.LICENSE.txt",
+    "static/js/2.eb51c587.chunk.js.LICENSE.txt": "/Calculator_Amata/static/js/2.eb51c587.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Calculator_Amata/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.00b44ff1.js",
-    "static/js/2.240671ef.chunk.js",
+    "static/js/runtime-main.d8f240da.js",
+    "static/css/2.3c434353.chunk.css",
+    "static/js/2.eb51c587.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.8a6f0df9.chunk.js"
+    "static/js/main.c85542d9.chunk.js"
   ]
 }
