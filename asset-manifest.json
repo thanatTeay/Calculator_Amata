@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Calculator_Amata/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/Calculator_Amata/static/js/main.c85542d9.chunk.js",
-    "main.js.map": "/Calculator_Amata/static/js/main.c85542d9.chunk.js.map",
-    "runtime-main.js": "/Calculator_Amata/static/js/runtime-main.d8f240da.js",
-    "runtime-main.js.map": "/Calculator_Amata/static/js/runtime-main.d8f240da.js.map",
+    "main.css": "/Calculator_Amata/static/css/main.61271db5.chunk.css",
+    "main.js": "/Calculator_Amata/static/js/main.e6fc29ce.chunk.js",
+    "main.js.map": "/Calculator_Amata/static/js/main.e6fc29ce.chunk.js.map",
+    "runtime-main.js": "/Calculator_Amata/static/js/runtime-main.b46142f2.js",
+    "runtime-main.js.map": "/Calculator_Amata/static/js/runtime-main.b46142f2.js.map",
     "static/css/2.3c434353.chunk.css": "/Calculator_Amata/static/css/2.3c434353.chunk.css",
-    "static/js/2.eb51c587.chunk.js": "/Calculator_Amata/static/js/2.eb51c587.chunk.js",
-    "static/js/2.eb51c587.chunk.js.map": "/Calculator_Amata/static/js/2.eb51c587.chunk.js.map",
-    "static/js/3.5de82d95.chunk.js": "/Calculator_Amata/static/js/3.5de82d95.chunk.js",
-    "static/js/3.5de82d95.chunk.js.map": "/Calculator_Amata/static/js/3.5de82d95.chunk.js.map",
+    "static/js/2.ecfd66d3.chunk.js": "/Calculator_Amata/static/js/2.ecfd66d3.chunk.js",
+    "static/js/2.ecfd66d3.chunk.js.map": "/Calculator_Amata/static/js/2.ecfd66d3.chunk.js.map",
+    "static/js/3.d77ed21f.chunk.js": "/Calculator_Amata/static/js/3.d77ed21f.chunk.js",
+    "static/js/3.d77ed21f.chunk.js.map": "/Calculator_Amata/static/js/3.d77ed21f.chunk.js.map",
     "index.html": "/Calculator_Amata/index.html",
     "static/css/2.3c434353.chunk.css.map": "/Calculator_Amata/static/css/2.3c434353.chunk.css.map",
-    "static/css/main.9d5b29c0.chunk.css.map": "/Calculator_Amata/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.eb51c587.chunk.js.LICENSE.txt": "/Calculator_Amata/static/js/2.eb51c587.chunk.js.LICENSE.txt",
+    "static/css/main.61271db5.chunk.css.map": "/Calculator_Amata/static/css/main.61271db5.chunk.css.map",
+    "static/js/2.ecfd66d3.chunk.js.LICENSE.txt": "/Calculator_Amata/static/js/2.ecfd66d3.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/Calculator_Amata/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8f240da.js",
+    "static/js/runtime-main.b46142f2.js",
     "static/css/2.3c434353.chunk.css",
-    "static/js/2.eb51c587.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.c85542d9.chunk.js"
+    "static/js/2.ecfd66d3.chunk.js",
+    "static/css/main.61271db5.chunk.css",
+    "static/js/main.e6fc29ce.chunk.js"
   ]
 }
