@@ -6,31 +6,33 @@ import RemoveIcon from '@material-ui/icons/Remove'
 import AddIcon from '@material-ui/icons/Add'
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
+import { CenterFocusStrong } from '@material-ui/icons';
 
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-      '& .MuiTextField-root': {
-          margin: theme.spacing(1),
-      }
+    root: {
+        '& .MuiTextField-root': {
+            margin: theme.spacing(1),
+        }
 
 
-  },
-  button: {
-      margin: theme.spacing(1),
-  }
+    },
+    button: {
+        margin: theme.spacing(1),
+        
+    }
 
 }))
 
 function App() {
-  let sum = 0;
+    let sum = 0;
     let max;
     let lowV = 0;
     let closeToTarget = 0;
     let highV = 1;
     let ghv = 0;
     let glv = 0;
-    let test =0;
+    let test = 0;
     let found = false;
     let countNfound = 0;
     const classes = useStyles()
@@ -83,11 +85,16 @@ function App() {
     }
 
     function Cal() {
-        for (let i = 0; i < 100; i++) {
-            inputFields.forEach((item, i) => {
+        for (let i = 0; i < 2; i++) {
+            inputFields?.forEach((item, i) => {
                 if (parseFloat(item.weight) === max) {
+
                     sum += parseFloat(item.weight) * lowV * parseFloat(exchange);
-                    
+
+
+
+
+
 
                 }
                 else {
@@ -107,18 +114,18 @@ function App() {
 
                 confirmAlert({
                     customUI: ({ onClose }) => {
-                      return (
-                        <div className='custom-ui'>
-                          <h1>Results</h1>
-                          <p>{"Lower wieghts= " + lowV.toFixed(2)}</p>
-                          <p>{"Highest wieght = " + highV.toFixed(2)}</p>
-                          <p>{"Close= " + closeToTarget.toFixed(2)}</p>
-                          <button onClick={onClose}>Ok</button>
-                          
-                        </div>
-                      );
+                        return (
+                            <div className='custom-ui'>
+                                <h1>Results</h1>
+                                <p>{"Lower wieghts= " + lowV.toFixed(2)}</p>
+                                <p>{"Highest wieght = " + highV.toFixed(2)}</p>
+                                <p>{"Close= " + closeToTarget.toFixed(2)}</p>
+                                <button onClick={onClose}>Ok</button>
+
+                            </div>
+                        );
                     }
-                  });
+                });
 
                 break;
             }
@@ -130,8 +137,8 @@ function App() {
                 lowV += 0.01;
             }
         }
-       
-        Loop();
+
+        //Loop();
 
     }
 
@@ -166,7 +173,7 @@ function App() {
                     glv += 0.10;
                     highV = ghv;
                     lowV = glv;
-                   
+
                     Cal();
                 },
             },
@@ -195,7 +202,7 @@ function App() {
 
             <h1>Add Weights</h1>
             <form className={classes.root} onSubmit={handleSubmit}>
-                <Grid item xs={12}>
+                <Grid item xs={12} className="test">
                     <TextField
                         name="target"
                         label="Target Value"
