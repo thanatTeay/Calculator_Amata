@@ -85,7 +85,7 @@ function App() {
     }
 
     function Cal() {
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < 100; i++) {
             inputFields?.forEach((item, i) => {
                 if (parseFloat(item.weight) === max) {
 
@@ -138,7 +138,7 @@ function App() {
             }
         }
 
-        //Loop();
+        Loop();
 
     }
 
